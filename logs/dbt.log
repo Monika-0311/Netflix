@@ -1,0 +1,85 @@
+[0m22:32:30.401948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EF36C5160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EF4A2FED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018EF4A2FB10>]}
+
+
+============================== 22:32:30.407614 | da36f8ed-2201-4e18-a1cb-bd6f5e665e55 ==============================
+[0m22:32:30.407614 [info ] [MainThread]: Running with dbt=1.11.6
+[0m22:32:30.408332 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\monik\\.dbt', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'None', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'no_print': 'None', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init NETFLIX', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'target_path': 'None'}
+[0m22:32:30.450904 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\monik\.dbt
+[0m22:32:30.454428 [debug] [MainThread]: Starter project path: C:\Users\monik\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m22:32:30.487506 [info ] [MainThread]: 
+Your new dbt project "NETFLIX" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:32:30.488260 [info ] [MainThread]: Setting up your profile.
+[0m22:32:51.523060 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m22:32:51.523543 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m22:32:51.523813 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m22:34:25.419740 [info ] [MainThread]: Profile NETFLIX written to C:\Users\monik\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:34:25.426054 [debug] [MainThread]: Command `dbt init` succeeded at 22:34:25.425481 after 115.14 seconds
+[0m22:34:25.427317 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E86F2D940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E85596E70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E86EDCF30>]}
+[0m22:34:25.428707 [debug] [MainThread]: Flushing usage events
+[0m22:34:26.416901 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:05:56.465646 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 23:05:56.601624 | 984dad64-ebd6-484d-b1fe-21c7abe8bea0 ==============================
+[0m23:05:56.601624 [info ] [MainThread]: Running with dbt=1.11.6
+[0m23:05:56.602996 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'write_json': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\monik\\.dbt', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'False', 'quiet': 'False', 'log_format': 'default', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'invocation_command': 'dbt run --select src_movies', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'target_path': 'None'}
+[0m23:05:56.604343 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Netflix\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:05:56.605654 [debug] [MainThread]: Command `dbt run` failed at 23:05:56.605479 after 0.27 seconds
+[0m23:05:56.605940 [debug] [MainThread]: Flushing usage events
+[0m23:07:06.962740 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 23:07:07.063765 | 249c9116-5184-4583-a90d-9bc76a0a3c58 ==============================
+[0m23:07:07.063765 [info ] [MainThread]: Running with dbt=1.11.6
+[0m23:07:07.065166 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'target_path': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\monik\\.dbt', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'False', 'quiet': 'False', 'log_format': 'default', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'no_print': 'None', 'fail_fast': 'False', 'invocation_command': 'dbt run --select src_movies', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'write_json': 'True'}
+[0m23:07:07.066038 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Netflix\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:07:07.067829 [debug] [MainThread]: Command `dbt run` failed at 23:07:07.067598 after 0.15 seconds
+[0m23:07:07.068336 [debug] [MainThread]: Flushing usage events
+[0m01:18:35.189724 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE8745160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE9AB7ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE9AB7B10>]}
+
+
+============================== 01:18:35.198141 | 8aa56bd5-f5f6-4d7f-b47a-07769ee70c5f ==============================
+[0m01:18:35.198141 [info ] [MainThread]: Running with dbt=1.11.6
+[0m01:18:35.199328 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\monik\\.dbt', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'False', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'invocation_command': 'dbt run --model src_genome_scores', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'target_path': 'None', 'write_json': 'True'}
+[0m01:18:35.199791 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+Usage of `--models`, `--model`, and `-m` is deprecated in favor of `--select` or
+`-s`.
+[0m01:18:35.200579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '8aa56bd5-f5f6-4d7f-b47a-07769ee70c5f', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE99AAD70>]}
+[0m01:18:35.201122 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Netflix\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:18:35.202351 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ModelParamUsageDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m01:18:35.203522 [debug] [MainThread]: Command `dbt run` failed at 01:18:35.203382 after 0.26 seconds
+[0m01:18:35.203938 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE992AF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE992B020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE9903850>]}
+[0m01:18:35.204483 [debug] [MainThread]: Flushing usage events
+[0m01:18:36.413197 [debug] [MainThread]: An error was encountered while trying to flush usage events

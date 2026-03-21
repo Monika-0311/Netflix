@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: NETFLIX
+    schema: NETFILX_SCH
+    tables:
+    - name: s_GENOME_TAGS
+      identifier: RAW_GENOME_TAGS
+    - name: s_MOVIE_RATINGS
+      identifier: MOVIE_RATINGS
+    - name: s_MOVIE
+      identifier: MOVIE_RAW
+    - name: s_LINKS
+      identifier: RAW_LINKS
+    - name: s_TAGS
+      identifier: RAW_TAGS

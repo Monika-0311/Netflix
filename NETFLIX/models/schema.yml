@@ -1,0 +1,7 @@
+models:
+  - name: fct_tgs
+    description: fact tag table matadata test
+    columns:
+      - name: movie_id
+        test: 
+          - not_null
