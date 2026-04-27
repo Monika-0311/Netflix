@@ -83,3 +83,148 @@ parsing.
 [0m01:18:35.203938 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE992AF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE992B020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAE9903850>]}
 [0m01:18:35.204483 [debug] [MainThread]: Flushing usage events
 [0m01:18:36.413197 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:05:39.660680 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B302A5160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B31617ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B31617B10>]}
+
+
+============================== 18:05:39.670655 | 0498d7de-4730-4520-a2af-4014dbc86d24 ==============================
+[0m18:05:39.670655 [info ] [MainThread]: Running with dbt=1.11.6
+[0m18:05:39.672108 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'target_path': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\monik\\.dbt', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'False', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'invocation_command': 'dbt run --model src_GENOME_Tags', 'fail_fast': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'use_experimental_parser': 'False'}
+[0m18:05:39.672696 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+Usage of `--models`, `--model`, and `-m` is deprecated in favor of `--select` or
+`-s`.
+[0m18:05:39.673755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '0498d7de-4730-4520-a2af-4014dbc86d24', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B3150AD70>]}
+[0m18:05:39.674720 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Netflix\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:05:39.676275 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ModelParamUsageDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m18:05:39.677990 [debug] [MainThread]: Command `dbt run` failed at 18:05:39.677782 after 0.24 seconds
+[0m18:05:39.678618 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B3148AF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B3148B020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029B31463850>]}
+[0m18:05:39.679559 [debug] [MainThread]: Flushing usage events
+[0m18:05:42.222183 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:44:26.704902 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001380DC95160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001380F017ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001380F017B10>]}
+
+
+============================== 14:44:26.711455 | 42c1f79d-b326-44af-8da6-ae6f78ef865f ==============================
+[0m14:44:26.711455 [info ] [MainThread]: Running with dbt=1.11.6
+[0m14:44:26.712704 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'write_json': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'empty': 'False', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'profiles_dir': 'C:\\Users\\monik\\.dbt', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'invocation_command': 'dbt run --model src_GENOME_Tags', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'target_path': 'None', 'use_experimental_parser': 'False'}
+[0m14:44:26.713210 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+Usage of `--models`, `--model`, and `-m` is deprecated in favor of `--select` or
+`-s`.
+[0m14:44:26.713745 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '42c1f79d-b326-44af-8da6-ae6f78ef865f', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001380EF0AD70>]}
+[0m14:44:26.714199 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Netflix\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:44:26.714743 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ModelParamUsageDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m14:44:26.715468 [debug] [MainThread]: Command `dbt run` failed at 14:44:26.715370 after 0.17 seconds
+[0m14:44:26.715750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001380EE8AF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001380EE8B020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001380EE63850>]}
+[0m14:44:26.716013 [debug] [MainThread]: Flushing usage events
+[0m14:44:28.037565 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:46:15.084132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E88E0C5160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E88F43BED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E88F43BB10>]}
+
+
+============================== 14:46:15.088100 | ada4c347-d5e2-440e-b276-93555e394e28 ==============================
+[0m14:46:15.088100 [info ] [MainThread]: Running with dbt=1.11.6
+[0m14:46:15.089029 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\monik\\.dbt', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'False', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'invocation_command': 'dbt run --model src_GENOME_Tags.sq', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'write_json': 'True', 'target_path': 'None'}
+[0m14:46:15.089363 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+Usage of `--models`, `--model`, and `-m` is deprecated in favor of `--select` or
+`-s`.
+[0m14:46:15.089774 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'ada4c347-d5e2-440e-b276-93555e394e28', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E88F32AEA0>]}
+[0m14:46:15.090215 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Netflix\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:46:15.090742 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ModelParamUsageDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m14:46:15.091523 [debug] [MainThread]: Command `dbt run` failed at 14:46:15.091423 after 0.12 seconds
+[0m14:46:15.091794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E88F2AAF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E88F2AB020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E88F287850>]}
+[0m14:46:15.092049 [debug] [MainThread]: Flushing usage events
+[0m14:46:16.591083 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:46:23.206984 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216C4E55160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216C61C7ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216C61C7B10>]}
+
+
+============================== 14:46:23.210880 | 048a20ca-1055-4125-8138-dcb312ae2052 ==============================
+[0m14:46:23.210880 [info ] [MainThread]: Running with dbt=1.11.6
+[0m14:46:23.211571 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'write_json': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\monik\\.dbt', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'False', 'log_format': 'default', 'quiet': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'invocation_command': 'dbt run --model src_GENOME_Tags.sql', 'fail_fast': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'target_path': 'None'}
+[0m14:46:23.211948 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+Usage of `--models`, `--model`, and `-m` is deprecated in favor of `--select` or
+`-s`.
+[0m14:46:23.212453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '048a20ca-1055-4125-8138-dcb312ae2052', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216C60BAD70>]}
+[0m14:46:23.212932 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Netflix\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:46:23.213460 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ModelParamUsageDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m14:46:23.214160 [debug] [MainThread]: Command `dbt run` failed at 14:46:23.214067 after 0.12 seconds
+[0m14:46:23.214460 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216C603AF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216C603B020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216C6013850>]}
+[0m14:46:23.214709 [debug] [MainThread]: Flushing usage events
+[0m14:46:24.561860 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:47:53.020343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024428715160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024429A87ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024429A87B10>]}
+
+
+============================== 14:47:53.024208 | 1bdb0745-7475-44dc-ac66-b65a357d4a44 ==============================
+[0m14:47:53.024208 [info ] [MainThread]: Running with dbt=1.11.6
+[0m14:47:53.024915 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'write_json': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'empty': 'False', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'profiles_dir': 'C:\\Users\\monik\\.dbt', 'quiet': 'False', 'log_format': 'default', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'no_print': 'None', 'fail_fast': 'False', 'invocation_command': 'dbt run --model src_GENOME_Tags', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'target_path': 'None'}
+[0m14:47:53.025284 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+Usage of `--models`, `--model`, and `-m` is deprecated in favor of `--select` or
+`-s`.
+[0m14:47:53.025709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '1bdb0745-7475-44dc-ac66-b65a357d4a44', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002442997AEA0>]}
+[0m14:47:53.026155 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Netflix\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:47:53.026598 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ModelParamUsageDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m14:47:53.030467 [debug] [MainThread]: Command `dbt run` failed at 14:47:53.030323 after 0.13 seconds
+[0m14:47:53.030787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244298FAF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244298FB020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244298D7850>]}
+[0m14:47:53.031064 [debug] [MainThread]: Flushing usage events
+[0m14:47:54.305833 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:49:41.477025 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBB8595160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBB98FFED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBB98FFB10>]}
+
+
+============================== 14:49:41.481653 | 61c7ca4a-7463-4444-9f4b-c2e539374df5 ==============================
+[0m14:49:41.481653 [info ] [MainThread]: Running with dbt=1.11.6
+[0m14:49:41.482349 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'target_path': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\monik\\.dbt', 'debug': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'empty': 'None', 'quiet': 'False', 'log_format': 'default', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'log_path': 'logs', 'introspect': 'True', 'invocation_command': 'dbt deps', 'fail_fast': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'write_json': 'True'}
+[0m14:49:41.482904 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Netflix\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:49:41.483878 [debug] [MainThread]: Command `dbt deps` failed at 14:49:41.483770 after 0.12 seconds
+[0m14:49:41.484176 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBB97FB100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBB97F68D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BBB977AF10>]}
+[0m14:49:41.484463 [debug] [MainThread]: Flushing usage events
+[0m14:49:42.916971 [debug] [MainThread]: An error was encountered while trying to flush usage events

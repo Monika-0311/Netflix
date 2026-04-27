@@ -2,7 +2,8 @@ version: 2
 
 sources:
   - name: NETFLIX
-    schema: NETFILX_SCH
+    database: NETFLIX_DB
+    schema: NETFLIX_SCH
     tables:
     - name: s_GENOME_TAGS
       identifier: RAW_GENOME_TAGS
@@ -14,3 +15,5 @@ sources:
       identifier: RAW_LINKS
     - name: s_TAGS
       identifier: RAW_TAGS
+    - name: s_Microsoft_Users
+      identifier: MICROSOFT_USERS

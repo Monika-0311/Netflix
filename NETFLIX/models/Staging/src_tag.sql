@@ -4,8 +4,8 @@ as
 (
 Select * from {{ source('NETFLIX','s_TAGS')}})
 Select 
-USER_ID,
-MOVIE_ID,
+USERID,
+MOVIEID,
 TAG,
 timestamp
 From Raw_Tags
