@@ -1,8 +1,8 @@
 With RAW_MOVIES 
 as 
 (
-Select * from {{ source('NETFLIX','s_MOVIE')}}
-
+Select MOVIE_ID,TITLE, {{ delimiter('GENRES')}} As GENRES 
+from {{ source('NETFLIX','s_MOVIE')}}
 )
 Select 
 MOVIE_ID,
