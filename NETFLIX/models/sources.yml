@@ -2,15 +2,15 @@ version: 2
 
 sources:
   - name: NETFLIX
-    database: NETFLIX_DB
-    schema: NETFLIX_SCH
+    database: NETFILX_DB
+    schema: NETFILX_SCH
     tables:
     - name: s_GENOME_TAGS
       identifier: RAW_GENOME_TAGS
     - name: s_MOVIE_RATINGS
       identifier: MOVIE_RATINGS
     - name: s_MOVIE
-      identifier: MOVIE_RAW
+      identifier: RAW_MOVIES
     - name: s_LINKS
       identifier: RAW_LINKS
     - name: s_TAGS
